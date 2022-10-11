@@ -21,8 +21,8 @@
 
 #pragma once
 
-#include "compiler.h"
-#include "error-reporter.h"
+#include <capnp/compiler/compiler.h>
+#include <capnp/compiler/error-reporter.h>
 #include <kj/memory.h>
 #include <kj/array.h>
 #include <kj/string.h>

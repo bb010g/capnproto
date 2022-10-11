@@ -21,7 +21,7 @@
 
 #pragma once
 
-#include "dynamic.h"
+#include <capnp/dynamic.h>
 #include <kj/string-tree.h>
 
 CAPNP_BEGIN_HEADER

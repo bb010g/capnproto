@@ -20,11 +20,11 @@
 // THE SOFTWARE.
 
 #if _WIN32 || __CYGWIN__
-#include "win32-api-version.h"
+#include <kj/win32-api-version.h>
 #endif
 
-#include "mutex.h"
-#include "debug.h"
+#include <kj/mutex.h>
+#include <kj/debug.h>
 
 #if !_WIN32 && !__CYGWIN__
 #include <time.h>

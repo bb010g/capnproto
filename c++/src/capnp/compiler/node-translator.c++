@@ -19,8 +19,8 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#include "node-translator.h"
-#include "parser.h"      // only for generateGroupId() and expressionString()
+#include <capnp/compiler/node-translator.h>
+#include <capnp/compiler/parser.h>      // only for generateGroupId() and expressionString()
 #include <capnp/serialize.h>
 #include <kj/debug.h>
 #include <kj/arena.h>

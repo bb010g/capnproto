@@ -20,8 +20,8 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#include "timer.h"
-#include "debug.h"
+#include <kj/timer.h>
+#include <kj/debug.h>
 #include <set>
 
 namespace kj {

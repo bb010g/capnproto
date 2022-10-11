@@ -19,15 +19,15 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#include "serialize-text.h"
+#include <capnp/serialize-text.h>
 
 #include <kj/debug.h>
 
-#include "pretty-print.h"
-#include "compiler/lexer.capnp.h"
-#include "compiler/lexer.h"
-#include "compiler/node-translator.h"
-#include "compiler/parser.h"
+#include <capnp/pretty-print.h>
+#include <capnp/compiler/lexer.capnp.h>
+#include <capnp/compiler/lexer.h>
+#include <capnp/compiler/node-translator.h>
+#include <capnp/compiler/parser.h>
 
 namespace capnp {
 

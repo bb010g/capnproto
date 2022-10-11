@@ -22,13 +22,13 @@
 #if _WIN32
 
 // Request Vista-level APIs.
-#include "win32-api-version.h"
+#include <kj/win32-api-version.h>
 
-#include "async-win32.h"
-#include "debug.h"
+#include <kj/async-win32.h>
+#include <kj/debug.h>
 #include <atomic>
-#include "time.h"
-#include "refcount.h"
+#include <kj/time.h>
+#include <kj/refcount.h>
 #include <ntsecapi.h>  // NTSTATUS
 #include <ntstatus.h>  // STATUS_SUCCESS
 

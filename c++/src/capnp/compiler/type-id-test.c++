@@ -19,7 +19,7 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#include "type-id.h"
+#include <capnp/compiler/type-id.h>
 #include <capnp/schema.capnp.h>
 #include <kj/test.h>
 

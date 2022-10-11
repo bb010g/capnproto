@@ -21,7 +21,7 @@
 
 #pragma once
 
-#include "schema.h"
+#include <capnp/schema.h>
 #include <kj/memory.h>
 #include <kj/mutex.h>
 

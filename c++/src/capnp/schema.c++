@@ -19,8 +19,8 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#include "schema.h"
-#include "message.h"
+#include <capnp/schema.h>
+#include <capnp/message.h>
 #include <kj/debug.h>
 #include <capnp/stream.capnp.h>
 

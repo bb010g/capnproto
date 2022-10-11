@@ -19,8 +19,8 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#include "generics.h"
-#include "parser.h"  // for expressionString()
+#include <capnp/compiler/generics.h>
+#include <capnp/compiler/parser.h>  // for expressionString()
 
 namespace capnp {
 namespace compiler {

@@ -1,0 +1,10 @@
+[workspace]
+members = [
+    "c++/src/capnp/compiler/rust",
+    "c++/src/capnp/json/rust",
+    "c++/src/capnp/rust",
+    "c++/src/kj/async/rust",
+    "c++/src/kj/gzip/rust",
+    "c++/src/kj/rust",
+    "rust/kj-build",
+]

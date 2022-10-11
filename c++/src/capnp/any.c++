@@ -19,12 +19,12 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#include "any.h"
+#include <capnp/any.h>
 
 #include <kj/debug.h>
 
 #if !CAPNP_LITE
-#include "capability.h"
+#include <capnp/capability.h>
 #endif  // !CAPNP_LITE
 
 namespace capnp {

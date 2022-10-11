@@ -19,7 +19,7 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#include "error-reporter.h"
+#include <capnp/compiler/error-reporter.h>
 #include <kj/debug.h>
 
 namespace capnp {

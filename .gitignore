@@ -72,6 +72,9 @@
 /c++/m4/lt~obsolete.m4
 /c++/samples/addressbook
 
+# Cargo artifacts
+/target/
+
 # editor artefacts
 *~
 

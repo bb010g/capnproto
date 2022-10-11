@@ -30,9 +30,9 @@
 
 #include <kj/common.h>
 #include <kj/memory.h>
-#include "common.h"
-#include "blob.h"
-#include "endian.h"
+#include <capnp/common.h>
+#include <capnp/blob.h>
+#include <capnp/endian.h>
 #include <kj/windows-sanity.h>  // work-around macro conflict with `VOID`
 
 CAPNP_BEGIN_HEADER

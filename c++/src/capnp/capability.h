@@ -27,9 +27,9 @@
 
 #include <kj/async.h>
 #include <kj/vector.h>
-#include "raw-schema.h"
-#include "any.h"
-#include "pointer-helpers.h"
+#include <capnp/raw-schema.h>
+#include <capnp/any.h>
+#include <capnp/pointer-helpers.h>
 
 CAPNP_BEGIN_HEADER
 

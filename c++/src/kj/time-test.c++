@@ -20,17 +20,17 @@
 // THE SOFTWARE.
 
 #if _WIN32
-#include "win32-api-version.h"
+#include <kj/win32-api-version.h>
 #endif
 
-#include "time.h"
-#include "debug.h"
+#include <kj/time.h>
+#include <kj/debug.h>
 #include <kj/test.h>
 #include <time.h>
 
 #if _WIN32
 #include <windows.h>
-#include "windows-sanity.h"
+#include <kj/windows-sanity.h>
 #else
 #include <unistd.h>
 #endif

@@ -22,7 +22,7 @@
 #pragma once
 
 #include <capnp/schema.capnp.h>
-#include "message.h"
+#include <capnp/message.h>
 
 CAPNP_BEGIN_HEADER
 

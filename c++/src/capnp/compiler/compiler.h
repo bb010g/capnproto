@@ -24,8 +24,8 @@
 #include <capnp/compiler/grammar.capnp.h>
 #include <capnp/schema.capnp.h>
 #include <capnp/schema-loader.h>
-#include "error-reporter.h"
-#include "generics.h"
+#include <capnp/compiler/error-reporter.h>
+#include <capnp/compiler/generics.h>
 
 CAPNP_BEGIN_HEADER
 

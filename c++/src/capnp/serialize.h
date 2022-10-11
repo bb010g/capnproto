@@ -40,7 +40,7 @@
 
 #pragma once
 
-#include "message.h"
+#include <capnp/message.h>
 #include <kj/io.h>
 
 CAPNP_BEGIN_HEADER

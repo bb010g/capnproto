@@ -19,7 +19,7 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#include "endian.h"
+#include <capnp/endian.h>
 #include <kj/compat/gtest.h>
 
 namespace capnp {

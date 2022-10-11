@@ -21,7 +21,7 @@
 
 #pragma once
 
-#include "json.h"
+#include <capnp/compat/json.h>
 #include <kj/async-io.h>
 #include <capnp/capability.h>
 #include <kj/map.h>

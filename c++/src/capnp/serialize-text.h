@@ -22,9 +22,9 @@
 #pragma once
 
 #include <kj/string.h>
-#include "dynamic.h"
-#include "orphan.h"
-#include "schema.h"
+#include <capnp/dynamic.h>
+#include <capnp/orphan.h>
+#include <capnp/schema.h>
 
 CAPNP_BEGIN_HEADER
 

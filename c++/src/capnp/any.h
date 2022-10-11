@@ -21,10 +21,10 @@
 
 #pragma once
 
-#include "layout.h"
-#include "pointer-helpers.h"
-#include "orphan.h"
-#include "list.h"
+#include <capnp/layout.h>
+#include <capnp/pointer-helpers.h>
+#include <capnp/orphan.h>
+#include <capnp/list.h>
 #include <kj/windows-sanity.h>  // work-around macro conflict with `VOID`
 #include <kj/hash.h>
 

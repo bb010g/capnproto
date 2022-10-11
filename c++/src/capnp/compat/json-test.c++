@@ -19,7 +19,7 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#include "json.h"
+#include <capnp/compat/json.h>
 #include <capnp/test-util.h>
 #include <capnp/compat/json.capnp.h>
 #include <capnp/compat/json-test.capnp.h>

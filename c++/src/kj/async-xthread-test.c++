@@ -20,18 +20,18 @@
 // THE SOFTWARE.
 
 #if _WIN32
-#include "win32-api-version.h"
+#include <kj/win32-api-version.h>
 #endif
 
-#include "async.h"
-#include "debug.h"
-#include "thread.h"
-#include "mutex.h"
+#include <kj/async.h>
+#include <kj/debug.h>
+#include <kj/thread.h>
+#include <kj/mutex.h>
 #include <kj/test.h>
 
 #if _WIN32
 #include <windows.h>
-#include "windows-sanity.h"
+#include <kj/windows-sanity.h>
 inline void delay() { Sleep(10); }
 #else
 #include <unistd.h>

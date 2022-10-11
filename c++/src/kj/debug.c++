@@ -20,10 +20,10 @@
 // THE SOFTWARE.
 
 #if _WIN32 || __CYGWIN__
-#include "win32-api-version.h"
+#include <kj/win32-api-version.h>
 #endif
 
-#include "debug.h"
+#include <kj/debug.h>
 #include <stdlib.h>
 #include <ctype.h>
 #include <string.h>
@@ -34,8 +34,8 @@
 #define strerror_r(errno,buf,len) strerror_s(buf,len,errno)
 #endif
 #include <windows.h>
-#include "windows-sanity.h"
-#include "encoding.h"
+#include <kj/windows-sanity.h>
+#include <kj/encoding.h>
 #include <wchar.h>
 #endif
 

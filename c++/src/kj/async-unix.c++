@@ -21,9 +21,9 @@
 
 #if !_WIN32
 
-#include "async-unix.h"
-#include "debug.h"
-#include "threadlocal.h"
+#include <kj/async-unix.h>
+#include <kj/debug.h>
+#include <kj/threadlocal.h>
 #include <setjmp.h>
 #include <errno.h>
 #include <inttypes.h>

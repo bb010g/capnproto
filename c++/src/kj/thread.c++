@@ -19,12 +19,12 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#include "thread.h"
-#include "debug.h"
+#include <kj/thread.h>
+#include <kj/debug.h>
 
 #if _WIN32
 #include <windows.h>
-#include "windows-sanity.h"
+#include <kj/windows-sanity.h>
 #else
 #include <pthread.h>
 #include <signal.h>

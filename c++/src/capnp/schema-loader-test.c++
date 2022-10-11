@@ -21,7 +21,7 @@
 
 #define CAPNP_TESTING_CAPNP 1
 
-#include "schema-loader.h"
+#include <capnp/schema-loader.h>
 #include <kj/compat/gtest.h>
 #include "test-util.h"
 #include <kj/debug.h>

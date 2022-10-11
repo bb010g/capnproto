@@ -20,10 +20,10 @@
 // THE SOFTWARE.
 
 #define CAPNP_PRIVATE
-#include "message.h"
+#include <capnp/message.h>
 #include <kj/debug.h>
-#include "arena.h"
-#include "orphan.h"
+#include <capnp/arena.h>
+#include <capnp/orphan.h>
 #include <stdlib.h>
 #include <errno.h>
 

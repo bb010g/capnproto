@@ -19,7 +19,7 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#include "common.h"
+#include <capnp/common.h>
 #include <kj/compat/gtest.h>
 #include <kj/string.h>
 #include <kj/debug.h>

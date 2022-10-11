@@ -20,17 +20,17 @@
 // THE SOFTWARE.
 
 #if _WIN32
-#include "win32-api-version.h"
+#include <kj/win32-api-version.h>
 #define NOGDI  // NOGDI is needed to make EXPECT_EQ(123u, *lock) compile for some reason
 #endif
 
-#include "time.h"
+#include <kj/time.h>
 
 #define KJ_MUTEX_TEST 1
 
-#include "mutex.h"
-#include "debug.h"
-#include "thread.h"
+#include <kj/mutex.h>
+#include <kj/debug.h>
+#include <kj/thread.h>
 #include <kj/compat/gtest.h>
 #include <stdlib.h>
 

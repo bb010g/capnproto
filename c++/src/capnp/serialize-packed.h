@@ -21,7 +21,7 @@
 
 #pragma once
 
-#include "serialize.h"
+#include <capnp/serialize.h>
 
 CAPNP_BEGIN_HEADER
 

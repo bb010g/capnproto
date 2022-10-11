@@ -19,7 +19,7 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#include "schema.capnp.h"
+#include <capnp/schema.capnp.h>
 
 #ifdef CAPNP_CAPABILITY_H_INCLUDED
 #error "schema.capnp should not depend on capability.h, because it contains no interfaces."
@@ -31,7 +31,7 @@
 #error "test.capnp did not include capability.h."
 #endif
 
-#include "capability.h"
+#include <capnp/capability.h>
 #include "test-util.h"
 #include <kj/debug.h>
 #include <kj/compat/gtest.h>

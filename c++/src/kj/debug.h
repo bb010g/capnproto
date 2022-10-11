@@ -114,9 +114,9 @@
 
 #pragma once
 
-#include "string.h"
-#include "exception.h"
-#include "windows-sanity.h"  // work-around macro conflict with `ERROR`
+#include <kj/string.h>
+#include <kj/exception.h>
+#include <kj/windows-sanity.h>  // work-around macro conflict with `ERROR`
 
 KJ_BEGIN_HEADER
 

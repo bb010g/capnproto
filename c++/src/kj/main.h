@@ -21,10 +21,10 @@
 
 #pragma once
 
-#include "array.h"
-#include "string.h"
-#include "vector.h"
-#include "function.h"
+#include <kj/array.h>
+#include <kj/string.h>
+#include <kj/vector.h>
+#include <kj/function.h>
 
 KJ_BEGIN_HEADER
 
@@ -169,8 +169,12 @@ int runMainAndExit(ProcessContext& context, MainFunc&& func, int argc, char* arg
 //
 // Most users will use the KJ_MAIN() macro rather than call this function directly.
 
+#ifndef KJ_CUSTOM_MAIN
+#define KJ_CUSTOM_MAIN main
+#endif
+
 #define KJ_MAIN(MainClass) \
-  int main(int argc, char* argv[]) { \
+  int KJ_CUSTOM_MAIN(int argc, char* argv[]) { \
     ::kj::TopLevelProcessContext context(argv[0]); \
     MainClass mainObject(context); \
     return ::kj::runMainAndExit(context, mainObject.getMain(), argc, argv); \

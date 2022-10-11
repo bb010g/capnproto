@@ -23,12 +23,12 @@
 
 #pragma once
 
-#include "raw-schema.h"
-#include "layout.h"
-#include "list.h"
-#include "orphan.h"
-#include "pointer-helpers.h"
-#include "any.h"
+#include <capnp/raw-schema.h>
+#include <capnp/layout.h>
+#include <capnp/list.h>
+#include <capnp/orphan.h>
+#include <capnp/pointer-helpers.h>
+#include <capnp/any.h>
 #include <kj/string.h>
 #include <kj/string-tree.h>
 #include <kj/hash.h>

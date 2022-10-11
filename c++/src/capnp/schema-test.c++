@@ -21,7 +21,7 @@
 
 #define CAPNP_TESTING_CAPNP 1
 
-#include "schema.h"
+#include <capnp/schema.h>
 #include <kj/compat/gtest.h>
 #include "test-util.h"
 

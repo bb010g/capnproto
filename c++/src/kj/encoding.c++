@@ -19,9 +19,9 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#include "encoding.h"
-#include "vector.h"
-#include "debug.h"
+#include <kj/encoding.h>
+#include <kj/vector.h>
+#include <kj/debug.h>
 
 namespace kj {
 

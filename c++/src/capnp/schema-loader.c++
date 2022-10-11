@@ -20,8 +20,8 @@
 // THE SOFTWARE.
 
 #define CAPNP_PRIVATE
-#include "schema-loader.h"
-#include "message.h"
+#include <capnp/schema-loader.h>
+#include <capnp/message.h>
 #include "arena.h"
 #include <kj/debug.h>
 #include <kj/exception.h>

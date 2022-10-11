@@ -1,0 +1,17 @@
+[package]
+name = "kj-async-sys"
+version = "0.1.0"
+edition = "2021"
+links = "kj-async"
+
+[lib]
+
+[dependencies]
+cxx = "1.0.76"
+kj-sys = { path = "../../rust", default-features = false, features = ["heavy"] }
+
+[build-dependencies]
+anyhow = "1.0.65"
+cc = "1.0.73"
+cxx-build = "1.0.76"
+kj-build = { path = "../../../../../rust/kj-build" }

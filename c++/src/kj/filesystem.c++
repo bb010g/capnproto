@@ -19,13 +19,13 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#include "filesystem.h"
-#include "vector.h"
-#include "debug.h"
-#include "one-of.h"
-#include "encoding.h"
-#include "refcount.h"
-#include "mutex.h"
+#include <kj/filesystem.h>
+#include <kj/vector.h>
+#include <kj/debug.h>
+#include <kj/one-of.h>
+#include <kj/encoding.h>
+#include <kj/refcount.h>
+#include <kj/mutex.h>
 #include <map>
 
 namespace kj {

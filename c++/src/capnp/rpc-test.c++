@@ -23,8 +23,8 @@
 
 #include "rpc.h"
 #include "test-util.h"
-#include "schema.h"
-#include "serialize.h"
+#include <capnp/schema.h>
+#include <capnp/serialize.h>
 #include <kj/debug.h>
 #include <kj/string-tree.h>
 #include <kj/compat/gtest.h>

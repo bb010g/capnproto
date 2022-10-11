@@ -26,7 +26,7 @@
 // so this check isn't appropriate for us.
 
 #if _WIN32 || __CYGWIN__
-#include "win32-api-version.h"
+#include <kj/win32-api-version.h>
 #elif __APPLE__
 // getcontext() and friends are marked deprecated on MacOS but seemingly no replacement is
 // provided. It appears as if they deprecated it solely because the standards bodies deprecated it,
@@ -39,20 +39,20 @@
 #define _XOPEN_SOURCE  // Must be defined to see getcontext() on MacOS.
 #endif
 
-#include "async.h"
-#include "debug.h"
-#include "vector.h"
-#include "threadlocal.h"
-#include "mutex.h"
-#include "one-of.h"
-#include "function.h"
-#include "list.h"
+#include <kj/async.h>
+#include <kj/debug.h>
+#include <kj/vector.h>
+#include <kj/threadlocal.h>
+#include <kj/mutex.h>
+#include <kj/one-of.h>
+#include <kj/function.h>
+#include <kj/list.h>
 #include <deque>
 #include <atomic>
 
 #if _WIN32 || __CYGWIN__
 #include <windows.h>  // for Sleep(0) and fibers
-#include "windows-sanity.h"
+#include <kj/windows-sanity.h>
 #else
 
 #if KJ_USE_FIBERS

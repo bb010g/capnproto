@@ -19,9 +19,9 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#include "module-loader.h"
-#include "lexer.h"
-#include "parser.h"
+#include <capnp/compiler/module-loader.h>
+#include <capnp/compiler/lexer.h>
+#include <capnp/compiler/parser.h>
 #include <kj/vector.h>
 #include <kj/mutex.h>
 #include <kj/debug.h>

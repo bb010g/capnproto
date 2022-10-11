@@ -1,0 +1,23 @@
+[package]
+name = "kj-gzip-sys"
+version = "0.1.0"
+edition = "2021"
+links = "kj-gzip"
+
+[lib]
+
+[features]
+default = []
+zlib = ["dep:libz-sys"]
+
+[dependencies]
+cxx = "1.0.76"
+kj-async-sys = { path = "../../async/rust" }
+kj-sys = { path = "../../rust", default-features = false, features = ["heavy"] }
+libz-sys = { version = "1.1.8", optional = true }
+
+[build-dependencies]
+anyhow = "1.0.65"
+cc = "1.0.73"
+cxx-build = "1.0.76"
+kj-build = { path = "../../../../../rust/kj-build" }

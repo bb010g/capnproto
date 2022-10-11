@@ -26,7 +26,7 @@
 
 // Make sure that if this header is before list.h by the user it includes it to make
 // IndexingIterator visible to avoid brittle header problems.
-#include "../list.h"
+#include <capnp/list.h>
 #include <iterator>
 
 CAPNP_BEGIN_HEADER

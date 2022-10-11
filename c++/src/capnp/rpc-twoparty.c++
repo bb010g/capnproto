@@ -20,7 +20,7 @@
 // THE SOFTWARE.
 
 #include "rpc-twoparty.h"
-#include "serialize-async.h"
+#include <capnp/serialize-async.h>
 #include <kj/debug.h>
 #include <kj/io.h>
 

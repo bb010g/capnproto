@@ -1,0 +1,20 @@
+[package]
+name = "capnpc-sys"
+version = "0.1.0"
+edition = "2021"
+links = "capnpc"
+
+[lib]
+
+[dependencies]
+capnp-sys = { path = "../../rust", default-features = false, features = ["heavy"] }
+capnp-json-sys = { path = "../../json/rust", default-features = false }
+cxx = "1.0.76"
+kj-async-sys = { path = "../../../kj/async/rust", default-features = false }
+kj-sys = { path = "../../../kj/rust", default-features = false, features = ["heavy"] }
+
+[build-dependencies]
+anyhow = "1.0.65"
+cc = "1.0.73"
+cxx-build = "1.0.76"
+kj-build = { path = "../../../../../rust/kj-build" }

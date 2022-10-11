@@ -21,8 +21,8 @@
 
 #pragma once
 
-#include "layout.h"
-#include "list.h"
+#include <capnp/layout.h>
+#include <capnp/list.h>
 
 CAPNP_BEGIN_HEADER
 

@@ -21,7 +21,7 @@
 
 #pragma once
 
-#include "layout.h"
+#include <capnp/layout.h>
 
 CAPNP_BEGIN_HEADER
 

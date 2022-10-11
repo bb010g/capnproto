@@ -27,8 +27,8 @@
 #include <kj/win32-api-version.h>
 #endif
 
-#include "serialize-async.h"
-#include "serialize.h"
+#include <capnp/serialize-async.h>
+#include <capnp/serialize.h>
 #include <kj/debug.h>
 #include <kj/thread.h>
 #include <stdlib.h>

@@ -26,9 +26,9 @@
 #include <kj/mutex.h>
 #include <kj/debug.h>
 #include <kj/vector.h>
-#include "common.h"
-#include "layout.h"
-#include "any.h"
+#include <capnp/common.h>
+#include <capnp/layout.h>
+#include <capnp/any.h>
 
 CAPNP_BEGIN_HEADER
 

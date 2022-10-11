@@ -35,11 +35,11 @@
 
 #pragma once
 
-#include "../common.h"
-#include "../memory.h"
-#include "../array.h"
-#include "../tuple.h"
-#include "../vector.h"
+#include <kj/common.h>
+#include <kj/memory.h>
+#include <kj/array.h>
+#include <kj/tuple.h>
+#include <kj/vector.h>
 
 #if _MSC_VER && _MSC_VER < 1920 && !__clang__
 #define KJ_MSVC_BROKEN_DECLTYPE 1

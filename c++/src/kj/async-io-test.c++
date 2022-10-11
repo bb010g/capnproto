@@ -21,15 +21,15 @@
 
 #if _WIN32
 // Request Vista-level APIs.
-#include "win32-api-version.h"
+#include <kj/win32-api-version.h>
 #elif !defined(_GNU_SOURCE)
 #define _GNU_SOURCE
 #endif
 
-#include "async-io.h"
+#include <kj/async-io.h>
 #include "async-io-internal.h"
-#include "debug.h"
-#include "io.h"
+#include <kj/debug.h>
+#include <kj/io.h>
 #include "miniposix.h"
 #include <kj/compat/gtest.h>
 #include <kj/time.h>
@@ -37,7 +37,7 @@
 #include <kj/filesystem.h>
 #if _WIN32
 #include <ws2tcpip.h>
-#include "windows-sanity.h"
+#include <kj/windows-sanity.h>
 #define inet_pton InetPtonA
 #define inet_ntop InetNtopA
 #else

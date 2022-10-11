@@ -21,12 +21,12 @@
 
 #include <capnp/test-import.capnp.h>
 #include <capnp/test-import2.capnp.h>
-#include "message.h"
+#include <capnp/message.h>
 #include <kj/debug.h>
 #include <kj/compat/gtest.h>
 #include "test-util.h"
-#include "schema-lite.h"
-#include "serialize-packed.h"
+#include <capnp/schema-lite.h>
+#include <capnp/serialize-packed.h>
 
 namespace capnp {
 namespace _ {  // private

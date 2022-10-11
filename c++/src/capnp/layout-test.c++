@@ -20,8 +20,8 @@
 // THE SOFTWARE.
 
 #define CAPNP_PRIVATE
-#include "layout.h"
-#include "message.h"
+#include <capnp/layout.h>
+#include <capnp/message.h>
 #include "arena.h"
 #include <kj/compat/gtest.h>
 

@@ -66,6 +66,7 @@ set(kj_headers
   main.h
   win32-api-version.h
   windows-sanity.h
+  miniposix.h
 )
 set(kj-parse_headers
   parse/common.h
@@ -174,7 +175,7 @@ if(NOT CAPNP_LITE)
   add_library(CapnProto::kj-http ALIAS kj-http)
   find_package(ZLIB)
   if(ZLIB_FOUND)
-    add_definitions(-D KJ_HAS_ZLIB=1)
+    target_compile_definitions(kj-http PRIVATE KJ_HAS_ZLIB)
     target_link_libraries(kj-http PUBLIC kj-async kj ZLIB::ZLIB)
   else()
     target_link_libraries(kj-http PUBLIC kj-async kj)
@@ -222,7 +223,7 @@ if(NOT CAPNP_LITE)
 
   find_package(ZLIB)
   if(ZLIB_FOUND)
-    add_definitions(-D KJ_HAS_ZLIB=1)
+    target_compile_definitions(kj-gzip PRIVATE KJ_HAS_ZLIB)
     target_link_libraries(kj-gzip PUBLIC kj-async kj ZLIB::ZLIB)
   endif()
 

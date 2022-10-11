@@ -27,9 +27,9 @@
 #include <capnp/dynamic.h>
 #include <kj/vector.h>
 #include <kj/one-of.h>
-#include "error-reporter.h"
-#include "resolver.h"
-#include "generics.h"
+#include <capnp/compiler/error-reporter.h>
+#include <capnp/compiler/resolver.h>
+#include <capnp/compiler/generics.h>
 #include <map>
 
 CAPNP_BEGIN_HEADER

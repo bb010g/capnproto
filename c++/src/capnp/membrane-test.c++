@@ -19,7 +19,7 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#include "membrane.h"
+#include <capnp/membrane.h>
 #include <kj/test.h>
 #include "test-util.h"
 #include <kj/function.h>

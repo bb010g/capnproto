@@ -32,12 +32,12 @@
 // as actual files are under 4GB.)
 #endif
 
-#include "async-io.h"
+#include <kj/async-io.h>
 #include "async-io-internal.h"
-#include "async-unix.h"
-#include "debug.h"
-#include "thread.h"
-#include "io.h"
+#include <kj/async-unix.h>
+#include <kj/debug.h>
+#include <kj/thread.h>
+#include <kj/io.h>
 #include "miniposix.h"
 #include <unistd.h>
 #include <sys/uio.h>

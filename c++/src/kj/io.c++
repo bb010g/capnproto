@@ -24,19 +24,19 @@
 #endif
 
 #if _WIN32
-#include "win32-api-version.h"
+#include <kj/win32-api-version.h>
 #endif
 
-#include "io.h"
-#include "debug.h"
+#include <kj/io.h>
+#include <kj/debug.h>
 #include "miniposix.h"
 #include <algorithm>
 #include <errno.h>
-#include "vector.h"
+#include <kj/vector.h>
 
 #if _WIN32
 #include <windows.h>
-#include "windows-sanity.h"
+#include <kj/windows-sanity.h>
 #else
 #include <sys/uio.h>
 #endif

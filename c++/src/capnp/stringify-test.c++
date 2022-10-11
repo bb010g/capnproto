@@ -19,9 +19,9 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#include "message.h"
-#include "dynamic.h"
-#include "pretty-print.h"
+#include <capnp/message.h>
+#include <capnp/dynamic.h>
+#include <capnp/pretty-print.h>
 #include <kj/debug.h>
 #include <kj/compat/gtest.h>
 #include "test-util.h"

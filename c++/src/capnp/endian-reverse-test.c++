@@ -26,7 +26,7 @@
 // Test that the code for the opposite endianness of our CPU works.  E.g. on x86 this will test
 // the bswap-based code.
 #define CAPNP_REVERSE_ENDIAN 1
-#include "endian.h"
+#include <capnp/endian.h>
 #include <kj/compat/gtest.h>
 
 namespace capnp {

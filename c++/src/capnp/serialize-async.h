@@ -22,7 +22,7 @@
 #pragma once
 
 #include <kj/async-io.h>
-#include "message.h"
+#include <capnp/message.h>
 
 CAPNP_BEGIN_HEADER
 

@@ -32,11 +32,11 @@
 
 #pragma once
 
-#include "schema.h"
-#include "layout.h"
-#include "message.h"
-#include "any.h"
-#include "capability.h"
+#include <capnp/schema.h>
+#include <capnp/layout.h>
+#include <capnp/message.h>
+#include <capnp/any.h>
+#include <capnp/capability.h>
 #include <kj/windows-sanity.h>  // work-around macro conflict with `VOID`
 
 CAPNP_BEGIN_HEADER

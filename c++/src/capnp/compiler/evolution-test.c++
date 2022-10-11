@@ -34,7 +34,7 @@
 #include <capnp/schema-loader.h>
 #include <capnp/message.h>
 #include <capnp/pretty-print.h>
-#include "compiler.h"
+#include <capnp/compiler/compiler.h>
 #include <kj/function.h>
 #include <kj/debug.h>
 #include <stdlib.h>

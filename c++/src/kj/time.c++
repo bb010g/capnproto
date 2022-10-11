@@ -21,11 +21,11 @@
 // THE SOFTWARE.
 
 #if _WIN32
-#include "win32-api-version.h"
+#include <kj/win32-api-version.h>
 #endif
 
-#include "time.h"
-#include "debug.h"
+#include <kj/time.h>
+#include <kj/debug.h>
 #include <set>
 
 #if _WIN32

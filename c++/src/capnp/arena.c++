@@ -20,8 +20,8 @@
 // THE SOFTWARE.
 
 #define CAPNP_PRIVATE
-#include "arena.h"
-#include "message.h"
+#include <capnp/arena.h>
+#include <capnp/message.h>
 #include <kj/debug.h>
 #include <kj/refcount.h>
 #include <vector>
@@ -30,7 +30,7 @@
 #include <stdlib.h>
 
 #if !CAPNP_LITE
-#include "capability.h"
+#include <capnp/capability.h>
 #endif  // !CAPNP_LITE
 
 namespace capnp {

@@ -23,18 +23,18 @@
 // For Unix implementation, see filesystem-disk-unix.c++.
 
 // Request Vista-level APIs.
-#include "win32-api-version.h"
+#include <kj/win32-api-version.h>
 
-#include "filesystem.h"
-#include "debug.h"
-#include "encoding.h"
-#include "vector.h"
+#include <kj/filesystem.h>
+#include <kj/debug.h>
+#include <kj/encoding.h>
+#include <kj/vector.h>
 #include <algorithm>
 #include <wchar.h>
 
 #include <windows.h>
 #include <winioctl.h>
-#include "windows-sanity.h"
+#include <kj/windows-sanity.h>
 
 namespace kj {
 

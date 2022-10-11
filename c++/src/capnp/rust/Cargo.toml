@@ -1,0 +1,22 @@
+[package]
+name = "capnp-sys"
+version = "0.1.0"
+edition = "2021"
+links = "capnp"
+
+[lib]
+
+[features]
+default = []
+heavy = ["kj-sys/heavy", "dep:kj-async-sys"]
+
+[dependencies]
+cxx = "1.0.76"
+kj-async-sys = { path = "../../kj/async/rust", default-features = false, optional = true }
+kj-sys = { path = "../../kj/rust", default-features = false }
+
+[build-dependencies]
+anyhow = "1.0.65"
+cc = "1.0.73"
+cxx-build = "1.0.76"
+kj-build = { path = "../../../../rust/kj-build" }

@@ -19,7 +19,7 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#include "lexer.h"
+#include <capnp/compiler/lexer.h>
 #include <kj/parse/char.h>
 #include <kj/debug.h>
 

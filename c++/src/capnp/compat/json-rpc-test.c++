@@ -19,7 +19,7 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#include "json-rpc.h"
+#include <capnp/compat/json-rpc.h>
 #include <kj/test.h>
 #include <capnp/test-util.h>
 

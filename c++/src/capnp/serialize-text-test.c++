@@ -19,7 +19,7 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#include "serialize-text.h"
+#include <capnp/serialize-text.h>
 #include <kj/compat/gtest.h>
 #include <kj/string.h>
 #include <capnp/pretty-print.h>

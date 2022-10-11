@@ -30,13 +30,13 @@
 #include <kj/exception.h>
 #include <kj/vector.h>
 #include <kj/units.h>
-#include "common.h"
-#include "message.h"
-#include "layout.h"
+#include <capnp/common.h>
+#include <capnp/message.h>
+#include <capnp/layout.h>
 #include <kj/map.h>
 
 #if !CAPNP_LITE
-#include "capability.h"
+#include <capnp/capability.h>
 #endif  // !CAPNP_LITE
 
 CAPNP_BEGIN_HEADER

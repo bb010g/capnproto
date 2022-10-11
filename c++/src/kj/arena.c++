@@ -19,8 +19,8 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#include "arena.h"
-#include "debug.h"
+#include <kj/arena.h>
+#include <kj/debug.h>
 #include <stdint.h>
 
 namespace kj {

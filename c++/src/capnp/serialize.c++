@@ -19,8 +19,8 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#include "serialize.h"
-#include "layout.h"
+#include <capnp/serialize.h>
+#include <capnp/layout.h>
 #include <kj/debug.h>
 #include <exception>
 #ifdef _WIN32

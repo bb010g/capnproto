@@ -19,7 +19,7 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#include "message.h"
+#include <capnp/message.h>
 #include "test-util.h"
 #include <kj/array.h>
 #include <kj/vector.h>

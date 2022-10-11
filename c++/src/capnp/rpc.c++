@@ -20,7 +20,7 @@
 // THE SOFTWARE.
 
 #include "rpc.h"
-#include "message.h"
+#include <capnp/message.h>
 #include <kj/debug.h>
 #include <kj/vector.h>
 #include <kj/async.h>

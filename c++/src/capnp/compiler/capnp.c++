@@ -27,18 +27,18 @@
 #include <kj/win32-api-version.h>
 #endif
 
-#include "lexer.h"
-#include "parser.h"
-#include "compiler.h"
-#include "module-loader.h"
-#include "node-translator.h"
+#include <capnp/compiler/lexer.h>
+#include <capnp/compiler/parser.h>
+#include <capnp/compiler/compiler.h>
+#include <capnp/compiler/module-loader.h>
+#include <capnp/compiler/node-translator.h>
 #include <capnp/pretty-print.h>
 #include <capnp/schema.capnp.h>
 #include <kj/vector.h>
 #include <kj/io.h>
 #include <kj/miniposix.h>
 #include <kj/debug.h>
-#include "../message.h"
+#include <capnp/message.h>
 #include <iostream>
 #include <kj/main.h>
 #include <kj/parse/char.h>
@@ -67,6 +67,10 @@
 
 #ifndef VERSION
 #define VERSION "(unknown)"
+#endif
+
+#ifdef CAPNP_COMPILER_NAMESPACED_MAIN
+#define KJ_CUSTOM_MAIN capnp::compiler::main
 #endif
 
 namespace capnp {
@@ -1999,6 +2003,10 @@ private:
     }
   }
 };
+
+#ifdef CAPNP_COMPILER_NAMESPACED_MAIN
+int main(int argc, char* argv[]);
+#endif
 
 }  // namespace compiler
 }  // namespace capnp

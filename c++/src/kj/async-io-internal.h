@@ -21,9 +21,9 @@
 
 #pragma once
 
-#include "string.h"
-#include "vector.h"
-#include "async-io.h"
+#include <kj/string.h>
+#include <kj/vector.h>
+#include <kj/async-io.h>
 #include <stdint.h>
 
 KJ_BEGIN_HEADER

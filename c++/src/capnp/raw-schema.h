@@ -21,7 +21,7 @@
 
 #pragma once
 
-#include "common.h"  // for uint and friends
+#include <capnp/common.h>  // for uint and friends
 
 #if _MSC_VER && !defined(__clang__)
 #include <atomic>

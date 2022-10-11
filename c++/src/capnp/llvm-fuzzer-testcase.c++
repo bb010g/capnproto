@@ -1,6 +1,6 @@
 #include "test-util.h"
 #include <kj/main.h>
-#include "serialize.h"
+#include <capnp/serialize.h>
 #include <capnp/test.capnp.h>
 #include <unistd.h>
 

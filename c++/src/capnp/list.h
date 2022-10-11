@@ -21,8 +21,8 @@
 
 #pragma once
 
-#include "layout.h"
-#include "orphan.h"
+#include <capnp/layout.h>
+#include <capnp/orphan.h>
 #include <initializer_list>
 
 CAPNP_BEGIN_HEADER

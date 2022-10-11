@@ -23,7 +23,7 @@
 
 #include <kj/common.h>
 #include <kj/string.h>
-#include "common.h"
+#include <capnp/common.h>
 #include <string.h>
 
 CAPNP_BEGIN_HEADER
